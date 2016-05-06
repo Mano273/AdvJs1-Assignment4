@@ -1,0 +1,18 @@
+<html>
+<head>
+	<title>Assignment 4</title>
+</head>
+
+<body>
+<p>Please open the console to check</p>
+<p id="hel"></p>
+<script type="text/javascript">
+	(function(name,age,city){
+		console.log("Name: "+ name+" Age: "+age+" City: "+ city);
+		document.getElementById('hel').innerHTML="<p>Name: "+ name+"</p><p> Age: "+age+"</p><p> City: "+ city+"</p>";
+		}('Rajni',24,'Delhi')
+	);
+
+</script>
+</body>
+</html>
